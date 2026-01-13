@@ -1,0 +1,180 @@
+* {
+  margin: 0px;
+  font-family: "poppins";
+}
+body {
+  background-image: url("https://i.pinimg.com/1200x/d3/7e/3e/d37e3ebd66d484d4af0c6e5750548248.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  z-index: 100;
+  
+}
+nav {
+  padding: 2px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+  border: 2px silver solid;
+  border-radius: 50px;
+  position: relative;
+  top: 5px;
+  width: 94vw;
+  z-index: 0;
+  background-color: rgba(13, 13, 13, 0.693);
+}
+
+.aboutme a {
+  color: rgb(186, 66, 66);
+  text-decoration: none;
+}
+.home a {
+  text-decoration: none;
+  color: silver;
+}
+.skills a {
+  text-decoration: none;
+  color: silver;
+}
+.projects a {
+  text-decoration: none;
+  color: silver;
+}
+.logo {
+  color: rgb(186, 66, 66);
+  font-size: 30px;
+  font-weight: bold;
+}
+#nav {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+#nav a:hover {
+  font-size: 16.5px;
+  color: rgb(186, 66, 66);
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  height: 40vw;
+  gap: 20px;
+}
+.child1 {
+  margin: 50px;
+  width: 40vw;
+  height: 20vw;
+  background: rgba(64, 60, 60, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#sub-child {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  color: silver;
+}
+.child1 a {
+  text-decoration: none;
+}
+#logo {
+  font-size: 27px;
+}
+#logo:hover {
+  font-size: 29px;
+}
+
+.ln {
+  color: rgb(3, 116, 182);
+}
+.ln:hover {
+  text-shadow: 0 0 10px rgb(3, 116, 182);
+  transition: 0.3s;
+}
+.ig {
+  color: rgb(255, 0, 208);
+}
+.ig:hover {
+  text-shadow: 0 0 10px rgb(255, 0, 208);
+  transition: 0.3s;
+}
+.fb {
+  color: rgb(0, 55, 255);
+}
+.fb:hover {
+  text-shadow: 0 0 10px rgb(0, 55, 255);
+  transition: 0.3s;
+}
+.yt {
+  color: rgb(255, 0, 30);
+}
+.yt:hover {
+  text-shadow: 0 0 10px rgb(255, 0, 30);
+  transition: 0.3s;
+}
+.mail {
+  color: rgb(66, 182, 255);
+}
+.mail:hover {
+  text-shadow: 0 0 10px rgb(66, 182, 255);
+  transition: 0.3s;
+}
+.git {
+  color: rgb(247, 247, 250);
+}
+.git:hover {
+  text-shadow: 0 0 10px rgb(247, 247, 250);
+  transition: 0.3s;
+}
+.child2 {
+  position: relative;
+  right: 15vw;
+  margin: 50px;
+  width: 23vw;
+  height: 15vw;
+  background: rgba(64, 60, 60, 0.2);
+  padding: 50px;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 17px;
+}
+#step-child {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  padding: 15px;
+  color: silver;
+}
+#in-logo{
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  text-shadow: 0 0 10px rgb(247, 247, 250);
+  transition: 0.3s;
+}
+.box1{
+  border-radius: 20px;
+  background-color: rgba(119, 122, 122, 0.744);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#info {
+  color: silver;
+}

@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  font-family: "poppins";
+}
+body {
+  background-image: url("https://i.pinimg.com/1200x/d3/7e/3e/d37e3ebd66d484d4af0c6e5750548248.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  z-index: 100;
+  
+}
+nav {
+  padding: 2px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+  border: 2px silver solid;
+  border-radius: 50px;
+  position: relative;
+  top: 5px;
+  width: 94vw;
+  z-index: 0;
+  background-color: rgba(13, 13, 13, 0.693);
+}
+.home a {
+  color: silver;
+  text-decoration: none;
+}
+.skills a {
+  color: rgb(186, 66, 66);
+  text-decoration: none;
+}
+.logo {
+  color: rgb(186, 66, 66);
+  font-size: 30px;
+  font-weight: bold;
+}
+#nav {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+  color: silver;
+}
+#nav a:hover {
+  font-size: 16.5px;
+  color: rgb(186, 66, 66);
+}
+.home a:hover {
+  font-size: 16.5px;
+  color: rgb(186, 66, 66);
+}
+
+.grand-parent {
+  margin: 0px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 38vw;
+}
+
+.parent {
+  margin-top: 10vw;
+  margin-left: 2vw;
+  width: auto;
+  height: auto;
+  color: silver;
+  background: rgba(64, 60, 60, 0.2); 
+  padding: 50px;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.child1 {
+  margin-bottom: 15px;
+}
+
+.py {
+  
+    -webkit-text-fill-color: transparent;
+    background:linear-gradient(120deg,blue,yellow);
+    background-clip:text;
+}
+.html {
+  color: coral;
+}
+.css {
+  color: blue;
+}
+.js {
+  color: yellow;
+}
+.Clang {
+  color: rgb(0, 157, 255);
+}
+.tech {
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 60px;
+  word-spacing: 30px;
+}
+#logo {
+  font-size: 40px;
+}
+.child2 {
+  justify-content: center;
+  align-items: center;
+}
+#sub-child {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  font-family: "poppins";
+}
+body {
+  background-image: url("https://i.pinimg.com/1200x/d3/7e/3e/d37e3ebd66d484d4af0c6e5750548248.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  z-index: 100;
+  
+}
+nav {
+  padding: 2px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+  border: 2px silver solid;
+  border-radius: 50px;
+  position: relative;
+  top: 5px;
+  width: 94vw;
+  z-index: 0;
+  background-color: rgba(13, 13, 13, 0.693);
+}
+
+.home a {
+  color: rgb(186, 66, 66);
+  text-decoration: none;
+}
+.logo {
+  color: rgb(186, 66, 66);
+  font-size: 30px;
+  font-weight: bold;
+}
+#nav {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+  color: silver;
+}
+#nav a:hover {
+  font-size: 16.5px;
+  color: rgb(186, 66, 66);
+}
+.parent {
+  color: silver;
+  flex-wrap: wrap;
+  height: 20px;
+}
+.content {
+  position: absolute;
+  top: -20px;
+  text-align: justify;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 9vw;
+  width: 52vw;
+  height: auto;
+  z-index: 0;
+  background: rgba(64, 60, 60, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.grand {
+  display: flex;
+}
+h1 {
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-family: "bellefair";
+}
+span {
+  font-size: 60px;
+  font-family: "poppins";
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    30deg,
+    rgb(215, 3, 3),
+    rgb(201, 86, 86),
+    rgb(195, 194, 194)
+  );
+  background-clip: text;
+  font-weight: bold;
+}
+p {
+  font-family: "poppins";
+  justify-content: left;
+  font-size: 17px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 130px;
+  left: 50px;
+  width: 28vw;
+  height: 28vw;
+}
+.img {
+  width: 380px;
+  height: 450px;
+  border-radius: 100vw;
+  position: fixed;
+}
